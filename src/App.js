@@ -1,18 +1,10 @@
-import Parrafo from "./componentes/Parrafo";
-import Variables from "./componentes/Variables";
-import Eventos from "./componentes/Eventos";
-import Contador from "./componentes/Contador";
-import Listas from "./componentes/Listas";
+import Formulario from "./componentes/Formulario";
 
 function App() {
   return (
-    <div>
+    <div className="container mt-5">
       <h1>Hola mundo React!</h1>
-      <Parrafo/>
-      <Variables></Variables>
-      <Eventos/>
-      <Contador/>
-      <Listas/>
+      <Formulario/>
     </div>
   );
 }
