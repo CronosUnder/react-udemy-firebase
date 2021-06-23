@@ -1,9 +1,9 @@
 import React from 'react'
 
-export const Saludo = (props) => {
+export const Contacto = () => {
     return (
         <div>
-            Hola {props.nombre}!
+            Contacto
         </div>
     )
 }
